@@ -1,5 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 
-/* header{
+#container{
+     width: 70%;
+     margin: 0 auto;    
+}
+
+
+* cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
     color: #fff;
@@ -9,34 +20,27 @@
     text-align: center;
 }
 
-header h1{
+cabecalho{
     font-size: 40px;
     text-align: center;
     margin: 0;
 }
 
-header nav ul{
+cabecalho nav ul{
     list-style: none;
     background-color: #2a2aca;
     padding: 0;
 }
 
-header nav ul li{
+cabecalho nav ul li{
     display: inline-block;
     margin: 0 10px;
 }
 
-header nav ul li a{
+cabecalho nav ul li a{
     color: #fff;
     text-decoration: none;
 } */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-
 
 h1{
     width: 100px;

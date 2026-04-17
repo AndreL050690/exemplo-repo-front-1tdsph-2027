@@ -1,9 +1,10 @@
 /* Reset básico */
 *{
-    margin: 0;
+    margin:0 ;
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
+    font-weight: normal;
 }
 /* Reset básico */
 
@@ -16,9 +17,9 @@
    --primary-bg: #30370d; /* Cor primaria hover*/
    --text-main: #fff; /* Cor para os textos principais ou gerais*/
     --text-title:#fefdfd; /*Cor para títulos */
-    
+
     --titulo-main: 4rem; /* Base de tamanho para títulos principais */
-    --sub-titulo: 4rem; /* Base de tamanho para títulos principais */
+    --sub-titulo: 3rem; /* Base de tamanho para títulos principais */
 
 
 
@@ -56,5 +57,17 @@ html{
 }
 
 body{
-    font-size: 2rem;;
+    font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
 }
